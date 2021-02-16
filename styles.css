@@ -1,25 +1,31 @@
+.grid-container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1 auto 1;
+    padding: 40px;
+    text-align: center;
+}
 .header {
-    position: fixed;
-    background-color: rgba(red, green, blue, 0.3);
-
-
+     
+    background-color: rgb(224, 160, 160);
+    border: black solid;
+    font-size: 40px;
+    height: 160px;
+    padding: 10px;
+    text-align: center;
+   
+    
 }
-
 .main {
-    display: flex;
-
+    background-color: rgb(236, 185, 140);
+    border: 2px solid black;
+    font-size: 20px;
 }
-
-.footer-grid {
-
-}
-
 .footer {
-    position: sticky;
-    bottom: 0;
-
-    background-color: rgba(23, 34, 255, 0.5);
-    text-align: center; 
-  
-
+    background-color: rgb(108, 130, 196);
+    font-size: 18px;
+    
 }
+
+
+
